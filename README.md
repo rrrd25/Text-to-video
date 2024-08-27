@@ -2,6 +2,12 @@
 
 This project demonstrates how to generate videos from text prompts using diffusion models. The code is intended to run in Google Colab and leverages the `diffusers` library, along with `transformers`, `accelerate`, and other essential libraries.
 
+## Preconditions
+
+- **Google Colab:** This code is designed to be executed in a Google Colab environment.
+- **Select GPU:** For faster execution, ensure that the runtime is set to use a GPU.
+  - To do this, go to `Runtime` > `Change runtime type` > `Hardware accelerator` and select `GPU`.
+
 ## Description
 
 The script `generate_video.py` generates a short video based on a text prompt using the following steps:
